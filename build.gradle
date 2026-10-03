@@ -1,0 +1,17 @@
+```gradle
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.example.ModuleLoader'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:31.1-jre'
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation 'org.slf4j:slf4j-simple:1.7.32'
+    testImplementation 'junit:junit:4.13.2'
+}
+```
